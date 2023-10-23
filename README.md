@@ -1,5 +1,5 @@
 # ExplodeGrenade
-A throwable grenade provide with counter, explosion and path prediction. The grenade can be picked up, move around and cause explosion after counter reach zero.
+A throwable grenade provide with path prediction, counter and explosion effect. The grenade can be picked up, move around and cause explosion after counter reach zero.
 
  To make it works you have to set up followings :
 - Add this component to Default Pawn
