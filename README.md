@@ -6,7 +6,7 @@ A throwable grenade provide with counter, explosion and path prediction. The gre
 - Set up Search Scale in details panel as it will be the length between player and pickable objects
 - Add an explosion particle to the particle slot as it will be trigger after counter reach zero
 - Use Throw Strength to set up the strength of throwing grenade. The higher the value is, the further the grenade fly
-- Set up Count Down Second to decide when should the counter count down from
+- Set up Count Down Second to decide how long should the counter count down from. The current count down second will be printed on the screen
 - Call the Action Grab and Action Release node in the blueprint and connect to a keyboard input. We can use the keyboard input to trigger the pick up event
 - Ready to go
 
