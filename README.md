@@ -3,11 +3,11 @@ A throwable grenade provide with counter, explosion and path prediction. The gre
 
  To make it works you have to set up followings :
 - Add this component to Default Pawn
-- Set up Search Scale as the length between player and pickable objects
+- Set up Search Scale in details panel as it will be the length between player and pickable objects
 - Add an explosion particle to the particle slot as it will be trigger after counter reach zero
 - Use Throw Strength to set up the strength of throwing grenade. The higher the value is, the further the grenade fly
 - Set up Count Down Second to decide when should the counter count down from
-- Call the Action Grab and Action Release node in the blueprint and connect to and keyboard action. We can use the keyboard action to trigger the pick up event
+- Call the Action Grab and Action Release node in the blueprint and connect to a keyboard input. We can use the keyboard input to trigger the pick up event
 - Ready to go
 
 
